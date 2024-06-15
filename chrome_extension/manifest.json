@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "My OCR Chrome Extension",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "./images/get_started16.png",
+            "48": "./images/get_started48.png",
+            "128": "./images/get_started128.jpeg"
+        }
+    }
+}
